@@ -1,0 +1,73 @@
+body{
+    background-color: #110e1b !important;
+}
+.todo{
+    color:  #7c162e !important;
+    font-size: 3rem !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    border-bottom: 2px solid  #7c162e!important;
+}
+.name{
+    color: whitesmoke !important ;
+    font-size: 1rem !important;
+    
+}
+
+
+.stylebutton {
+    padding: 8px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border-color: brown;
+
+}
+
+input {
+    height: 40px;
+    background-color:  #7c162e;
+   border: none;
+   color: white;
+   font-weight: bolder;
+   
+}
+input:hover{
+    border: none;
+    background-color:  #7c162e;
+
+}
+input::placeholder{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+button {
+    padding: 8px;
+    margin: 8px !important;
+}
+
+.container {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: row;
+}
+button{
+    text-align: center;
+       border: none;
+      color: white;
+       background-color:  #02020b; 
+}
+.c2{
+    background-color: #3406da !important;
+}
+button:hover{
+    background-color: white !important;
+    color: #7c162e ;
+    font-weight: bolder;
+}
+.list{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    border-bottom: 2px solid #7c162e;
+
+}
